@@ -18,4 +18,5 @@
 //Serializacion.imprimir();
 //Excepciones.imprimir();
 //Atributos.imprimir();
-Partial.imprimir();
+//Partial.imprimir();
+Indexadores.imprimir();

@@ -566,6 +566,8 @@ Ejemplo:
 
 Los registros (records) en C# 9 son una nueva característica que simplifica la creación de clases inmutables con propiedades de solo lectura y otros miembros autoimplementados. Los registros son adecuados para modelar objetos de datos.
 
+Ejemplo:
+
 ```csharp
   public record Persona(string Nombre, int Edad);
 
@@ -579,6 +581,8 @@ Los registros (records) en C# 9 son una nueva característica que simplifica la 
 **25-async-await.cs**
 
 El async y await en C# se utilizan para escribir código asíncrono de forma más sencilla. Los métodos marcados con la palabra clave async pueden contener operaciones asincrónicas, y la palabra clave await se utiliza para esperar la finalización de una operación asíncrona.
+
+Ejemplo:
 
 ```csharp
   public static async Task<int> ObtenerNumeroAsync()
@@ -597,6 +601,8 @@ El async y await en C# se utilizan para escribir código asíncrono de forma má
 **26-inicializador-de-objeto.cs**
 
 El inicializador de objeto en C# permite asignar valores a las propiedades de un objeto al crearlo.
+
+Ejemplo:
 
 ```csharp
   public class Persona

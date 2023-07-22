@@ -7,4 +7,5 @@
 //Composicion.imprimir();
 //Clases_abstractas.imprimir();
 //Interfaces.imprimir();
-Polimorfismo_dinamico.imprimir();
+//Polimorfismo_dinamico.imprimir();
+Sobrecarga_de_operadores.imprimir();

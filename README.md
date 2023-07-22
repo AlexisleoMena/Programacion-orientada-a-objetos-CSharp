@@ -562,3 +562,52 @@ Ejemplo:
     Console.WriteLine(propiedad.Name); // Imprime: "Nombre", "Edad"
   }
 ```
+**24-record.cs**
+
+Los registros (records) en C# 9 son una nueva característica que simplifica la creación de clases inmutables con propiedades de solo lectura y otros miembros autoimplementados. Los registros son adecuados para modelar objetos de datos.
+
+```csharp
+  public record Persona(string Nombre, int Edad);
+
+  public static void imprimir()
+  {
+    Persona persona = new Persona("Alexis", 30);
+    Console.WriteLine($"Nombre: {persona.Nombre}, Edad: {persona.Edad}");
+  }
+```
+
+**25-async-await.cs**
+
+El async y await en C# se utilizan para escribir código asíncrono de forma más sencilla. Los métodos marcados con la palabra clave async pueden contener operaciones asincrónicas, y la palabra clave await se utiliza para esperar la finalización de una operación asíncrona.
+
+```csharp
+  public static async Task<int> ObtenerNumeroAsync()
+  {
+    await Task.Delay(2000); // Simula una operación asíncrona que toma 2 segundos
+    return 42;
+  }
+
+  public static async Task imprimir()
+  {
+    int resultado = await ObtenerNumeroAsync();
+    Console.WriteLine($"Resultado: {resultado}");
+  }
+```
+
+**26-inicializador-de-objeto.cs**
+
+El inicializador de objeto en C# permite asignar valores a las propiedades de un objeto al crearlo.
+
+```csharp
+  public class Persona
+  {
+    public string Nombre { get; set; }
+    public int Edad { get; set; }
+  }
+
+  public static void imprimir()
+  {
+    Persona persona = new Persona { Nombre = "Juan", Edad = 25 };
+    Console.WriteLine($"Nombre: {persona.Nombre}, Edad: {persona.Edad}");
+  }
+```

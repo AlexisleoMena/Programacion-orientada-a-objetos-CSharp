@@ -14,4 +14,5 @@
 //Templates.imprimir();
 //Linq.imprimir();
 //Delegados_predeterminados.imprimir();
-Eventos.imprimir();
+//Eventos.imprimir();
+Serializacion.imprimir();

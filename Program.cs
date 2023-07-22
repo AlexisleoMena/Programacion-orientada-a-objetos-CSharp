@@ -10,4 +10,5 @@
 //Polimorfismo_dinamico.imprimir();
 //Sobrecarga_de_operadores.imprimir();
 //Entrada_y_salida_de_textos.imprimir();
-Entrada_y_salida_de_archivos_binarios.imprimir();
+//Entrada_y_salida_de_archivos_binarios.imprimir();
+Templates.imprimir();

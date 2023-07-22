@@ -5,4 +5,5 @@
 //Sobrecarga_de_metodos.imprimir();
 //Herencia.imprimir();
 //Composicion.imprimir();
-Clases_abstractas.imprimir();
+//Clases_abstractas.imprimir();
+Interfaces.imprimir();

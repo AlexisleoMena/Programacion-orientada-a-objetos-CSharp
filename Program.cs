@@ -4,4 +4,5 @@
 //Metodos_estaticos.imprimir();
 //Sobrecarga_de_metodos.imprimir();
 //Herencia.imprimir();
-Composicion.imprimir();
+//Composicion.imprimir();
+Clases_abstractas.imprimir();

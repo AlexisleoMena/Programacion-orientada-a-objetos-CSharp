@@ -170,7 +170,7 @@ Ejemplo:
 
 **08-Clases-abstractas.cs**
 
-Una clase abstracta en C# es una clase que no se puede instanciar directamente y que generalmente se utiliza como una clase base para otras clases concretas. Debe contener al menos un método abstracto, el cual no tiene implementación en la clase abstracta y debe ser implementado en las clases derivadas que hereden de ella.
+Una clase abstracta en C# es una clase que no se puede instanciar directamente y que generalmente se utiliza como una clase base para otras clases concretas. Suele utilizarse con métodos abstractos, los cuales no tienen implementación en la clase abstracta y deben ser implementado en las clases derivadas que hereden de ella.
 
 Ejemplo:
 
@@ -284,6 +284,7 @@ Ejemplo:
 ```
 
 **11-Sobrecarga-de-operadores.cs**
+
 La sobrecarga de operadores en C# permite definir comportamientos personalizados para operadores como +, -, *, /, etc. en nuestras clases.
 
 ```csharp

@@ -20,4 +20,5 @@
 //Atributos.imprimir();
 //Partial.imprimir();
 //Indexadores.imprimir();
-Reflection.imprimir();
+//Reflection.imprimir();
+Record.imprimir();

@@ -19,4 +19,5 @@
 //Excepciones.imprimir();
 //Atributos.imprimir();
 //Partial.imprimir();
-Indexadores.imprimir();
+//Indexadores.imprimir();
+Reflection.imprimir();

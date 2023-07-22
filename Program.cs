@@ -17,4 +17,5 @@
 //Eventos.imprimir();
 //Serializacion.imprimir();
 //Excepciones.imprimir();
-Atributos.imprimir();
+//Atributos.imprimir();
+Partial.imprimir();

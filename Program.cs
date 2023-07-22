@@ -13,4 +13,5 @@
 //Entrada_y_salida_de_archivos_binarios.imprimir();
 //Templates.imprimir();
 //Linq.imprimir();
-Delegados_predeterminados.imprimir();
+//Delegados_predeterminados.imprimir();
+Eventos.imprimir();

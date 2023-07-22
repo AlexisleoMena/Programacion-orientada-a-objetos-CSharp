@@ -6,4 +6,5 @@
 //Herencia.imprimir();
 //Composicion.imprimir();
 //Clases_abstractas.imprimir();
-Interfaces.imprimir();
+//Interfaces.imprimir();
+Polimorfismo_dinamico.imprimir();

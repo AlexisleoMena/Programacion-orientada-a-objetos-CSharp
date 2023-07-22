@@ -16,4 +16,5 @@
 //Delegados_predeterminados.imprimir();
 //Eventos.imprimir();
 //Serializacion.imprimir();
-Excepciones.imprimir();
+//Excepciones.imprimir();
+Atributos.imprimir();

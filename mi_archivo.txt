@@ -1,0 +1,3 @@
+Hi, archivo!
+Esto es un cambio
+de escritura en archivo

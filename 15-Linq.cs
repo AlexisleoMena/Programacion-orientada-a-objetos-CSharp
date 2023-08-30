@@ -19,6 +19,22 @@ class Linq
             Console.WriteLine($"ID: {persona.Id}, Nombre: {persona.Nombre}, Edad: {persona.Edad}");
         }
 
+        // Obtener personas únicas por edad
+        var edadesUnicas = personas.Select(p => p.Edad).Distinct();
+        Console.WriteLine("\nEdades únicas:");
+        foreach (var edad in edadesUnicas)
+        {
+            Console.WriteLine($"Edad única: {edad}");
+        }
+
+        // Proyectar solo los nombres de las personas
+        var nombresDePersonas = personas.Select(p => p.Nombre);
+        Console.WriteLine("\nNombres de personas:");
+        foreach (var nombre in nombresDePersonas)
+        {
+            Console.WriteLine($"Nombre: {nombre}");
+        }
+
         // Obtener la cantidad total de personas en la lista
         int cantidadPersonas = personas.Count();
         Console.WriteLine($"\nCantidad total de personas: {cantidadPersonas}");
@@ -60,6 +76,24 @@ class Linq
         {
             Console.WriteLine($"\nNo se encontró una persona con el nombre {nombreBuscar}");
         }
+
+        // Mostrar personas de la segunda a la cuarta
+        var personasSkipTake = personas.Skip(1).Take(3);
+        Console.WriteLine("\nPersonas desde la segunda hasta la cuarta:");
+        foreach (var persona in personasSkipTake)
+        {
+            Console.WriteLine($"ID: {persona.Id}, Nombre: {persona.Nombre}, Edad: {persona.Edad}");
+        }
+
+        // Verificar si hay alguna persona con edad mayor a 40
+        bool hayPersonasMayoresA40 = personas.Any(p => p.Edad > 40);
+        Console.WriteLine($"\n¿Hay personas mayores a 40? {hayPersonasMayoresA40}");
+
+        // Verificar si todas las personas tienen edad mayor a 20
+        bool todasPersonasMayoresA20 = personas.All(p => p.Edad > 20);
+        Console.WriteLine($"\n¿Todas las personas tienen más de 20 años? {todasPersonasMayoresA20}");
+
+
     }
 
     class Persona

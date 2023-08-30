@@ -12,7 +12,7 @@
 //Entrada_y_salida_de_textos.imprimir();
 //Entrada_y_salida_de_archivos_binarios.imprimir();
 //Templates.imprimir();
-//Linq.imprimir();
+Linq.imprimir();
 //Delegados_predeterminados.imprimir();
 //Eventos.imprimir();
 //Serializacion.imprimir();
@@ -22,4 +22,5 @@
 //Indexadores.imprimir();
 //Reflection.imprimir();
 //Record.imprimir();
-await Async_await.imprimir();
+//await Async_await.imprimir();
+//Inicializador_de_objeto.imprimir();
